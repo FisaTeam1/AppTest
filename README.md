@@ -1,7 +1,11 @@
 # 🔍 Project Testing Guide
 
-> 이 문서는 본 프로젝트에서 사용한 테스트 전략과 도구(k6, Prometheus, Grafana)에 대해 정리한 가이드입니다.  
-단위 테스트부터 부하 테스트, 성능 모니터링까지 전체 테스트 흐름을 다룹니다.
+> 이 문서는 본 프로젝트에서 수행하는 테스트의 목적과 범위를 정의하고,  
+각 테스트가 어떤 방식으로 소프트웨어의 품질과 신뢰성을 보장하는지 설명합니다.  
+단위 테스트(Unit Test)부터 통합 테스트(Integration Test), 보안 및 성능 테스트,  
+그리고 CI/CD 파이프라인 자체의 검증에 이르기까지 전 범위의 테스트 전략을 포함합니다.
+모든 테스트는 자동화된 DevSecOps 환경을 기준으로 설계되며,  
+코드 작성 → 빌드 → 배포 → 운영까지의 전체 라이프사이클에서 신뢰성 있는 품질 관리를 목표로 합니다.
 
 <br>
 
@@ -10,19 +14,6 @@
 |:-:|:-:|:-:|:-:|:-:|
 |[PM] HanJH<br/>[@letsgojh0810](https://github.com/letsgojh0810)|[PL] nahong_c<br/>[@HongChan1412](https://github.com/HongChan1412)|Kim YeJin<br/>[@yeejkim](https://github.com/yeejkim)|Park ji hye<br/>[@parkjhhh](https://github.com/parkjhhh)|Seok Hye Jin [@HyeJinSeok](https://github.com/HyeJinSeok)|
 
-<br>
-
-## 📄 개요
-
-이 문서는 본 프로젝트에서 수행하는 테스트의 목적과 범위를 정의하고,  
-각 테스트가 어떤 방식으로 소프트웨어의 품질과 신뢰성을 보장하는지 설명합니다.  
-단위 테스트(Unit Test)부터 통합 테스트(Integration Test), 보안 및 성능 테스트,  
-그리고 CI/CD 파이프라인 자체의 검증에 이르기까지 전 범위의 테스트 전략을 포함합니다.
-
-모든 테스트는 자동화된 DevSecOps 환경을 기준으로 설계되며,  
-코드 작성 → 빌드 → 배포 → 운영까지의 전체 라이프사이클에서 신뢰성 있는 품질 관리를 목표로 합니다.
-
----
 <br>
 
 ## 🎯 목적
