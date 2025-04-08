@@ -10,14 +10,20 @@
 |:-:|:-:|:-:|:-:|:-:|
 |[PM] HanJH<br/>[@letsgojh0810](https://github.com/letsgojh0810)|[PL] nahong_c<br/>[@HongChan1412](https://github.com/HongChan1412)|Kim YeJin<br/>[@yeejkim](https://github.com/yeejkim)|Park ji hye<br/>[@parkjhhh](https://github.com/parkjhhh)|Seok Hye Jin [@HyeJinSeok](https://github.com/HyeJinSeok)|
 
+<br>
+
 ## 📄 개요
 이 문서는 본 프로젝트에서 수행하는 테스트의 목적과 흐름을 정리한 가이드입니다.  
 단위 테스트, 통합 테스트, 성능 테스트, 부하 테스트를 포함하며  
 각 테스트는 코드의 안정성과 시스템의 신뢰성을 확보하기 위해 계획되었습니다.
 
+<br>
+
 ## 🎯 목적
 기능 단위의 정확성부터, 시스템 전반의 성능과 확장성까지 검증함으로써  
 문제 발생 가능성을 사전에 줄이고, 품질 높은 소프트웨어를 제공하는 것을 목표로 합니다.
+
+<br>
 
 ## 🛠️ 사용 도구 (Testing Tools)
 
@@ -29,7 +35,8 @@
 | 부하 테스트       | 고부하 상황에서의 안정성, 확장성, 리소스 소비 등을 실시간으로 모니터링 | k6 + Prometheus + Grafana                      |
 
 
-
+---
+<br>
 
 ## 목차
 1. [테스트 환경](#-테스트-환경)
